@@ -5,36 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Image Ovealay</title>
+  <link rel="stylesheet" href="stylesheet/css/all.css">
 </head>
 <body>
   <div class="wrap">
     <header>
       <div class="container center">
         <h1>image overlay effects</h1>
-        <ul>
-          <li><a href="#">fade in</a></li>
-          <li><a href="#">slide in</a></li>
-          <li><a href="#">zoom</a></li>
-        </ul>
+        <ul class="nav clearfix">
+          <li><a href="#fade">fade in</a></li>
+          <li><a href="#slide">slide in</a></li>
+          <li><a href="#zoom">zoom</a></li>
+        </ul>1
       </div>
     </header>
 
     <main class="container">
-      <div class="fade">
-        <h2>fade in</h2>
+      <!-- fade in -->
+      <div id="fade">
+        <h2>#fade in</h2>
         <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
+          <!-- without text -->
+          <div class="col-md-4">
+            <div class="title">without text</div>
+            <div class="fade-cover">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+            </div>
+          </div>
+          <!-- with text pesudo eldment -->
+          <div class="col-md-4">
+            <div class="title">
+              without text
+              <span>using pesudo</span>
+            </div>
+            <div class="fade-pesudo">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <div class="text-pesudo">
+                Bonjour!
+              </div>
+            </div>
+          </div>
+          <!-- with text block -->
+          <div class="col-md-4">
+            <div class="title">
+              without text
+              <span>using block</span>
+            </div>
+            <div class="fade-bl">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <div class="text-block">
+                <p>Bonjour!</p>
+              </div>
+            </div>
+          </div>
+          <!-- with button -->
+          <div class="col-md-4">
+            <div class="title">with button</div>
+            <div class="fade-btn-cover">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <div class="btn-outer">
+                <button class="btn">Bonjour!</button>
+              </div>
+            </div>
+          </div>
+          <!-- with button opacity block -->
+          <div class="col-md-4">
+            <div class="title">
+              with button
+              <span>using opacity setting</span>
+            </div>              
+            <div class="fade-btn-opacity">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <div class="btn-outer">
+                <button class="btn">Bonjour!</button>
+              </div>
+            </div>
+          </div>
+          <!-- with button bg-white -->
+          <div class="col-md-4">
+            <div class="title">
+              with button
+              <span>using white block</span>
+            </div>
+            <div class="fade-btn-wh-bl">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <div class="btn-outer">
+                <button class="btn">Bonjour!</button>
+              </div>
+            </div>
+          </div>
+          <!-- with button brightness filters -->
+          <div class="col-md-4">
+            <div class="title">
+              with button
+              <span>using brightness filters </span>
+            </div>
+            <div class="fade-btn-filter-br">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <button class="btn">Bonjour!</button>
+            </div>
+          </div>
+          <!-- with button bg-dark block -->
+          <div class="col-md-4">
+            <div class="title">
+              with button
+              <span>using black block</span>
+            </div>
+            <div class="fade-btn-bl-b">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <button class="btn">Bonjour!</button>
+            </div>
+          </div>
+          <!-- with button blur bg -->
+          <div class="col-md-4">
+            <div class="title">with button</div>
+            <div class="fade-btn-blur">
+              <img src="stylesheet/images/picnic.jpg" alt="images">
+              <button class="btn">Bonjour!</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="slide">
+      <div id="slide">
         <h2>slide in</h2>
         <div class="row">
           <div class="col-md-4"></div>
@@ -51,7 +143,7 @@
           <div class="col-md-4"></div>
         </div>
       </div>
-      <div class="zoom">
+      <div id="zoom" class="zoom">
         <h2>zoom</h2>
         <div class="row">
           <div class="col-md-4"></div>

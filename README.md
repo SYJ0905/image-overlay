@@ -10,11 +10,11 @@ https://yangjiesu.github.io/image-overlay/
 
 覆蓋效果:
 
-**  Fade In
+* Fade In
 
-**  Slide In
+* Slide In
 
-**  Zoom In&Out
+* Zoom In&Out
 
 ### Fade In 淡入效果
 

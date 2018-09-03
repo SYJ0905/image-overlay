@@ -2,7 +2,7 @@
 
 ## Demo
 
-連結
+https://yangjiesu.github.io/image-overlay/
 
 ## Intro
 

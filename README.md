@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://yangjiesu.github.io/image-overlay/
+https://syj0905.github.io/image-overlay/
 
 ## Intro
 
